@@ -46,6 +46,7 @@ function NewCamper({ onAddCamper }) {
       <div>
         <label htmlFor="age">Age</label>
         <input
+          placeholder="Between 8 & 18"
           type="number"
           id="age"
           value={age}
